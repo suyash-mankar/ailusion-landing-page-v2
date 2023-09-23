@@ -1,0 +1,30 @@
+.page4_container {
+  // background-color: #181818;
+  padding: 2% 3%;
+
+  .page4_img_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .page4_heading {
+    margin-top: 50px;
+    font-size: 4vw;
+    font-weight: 600;
+    padding: 0 15%;
+    line-height: 120%;
+    word-spacing: 20px;
+    // text-align: justify;
+  }
+
+  .page4_subtext {
+    margin-top: 20px;
+    color: #fff;
+    font-family: HelveticaNeue;
+    font-size: 1.5vw;
+    font-weight: 400;
+    opacity: 0.5;
+    padding: 0 15%;
+  }
+}

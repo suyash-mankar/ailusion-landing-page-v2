@@ -1,0 +1,80 @@
+.page2_container {
+  height: 50vh;
+  // background-color: #181818;
+  padding: 2% 3%;
+  position: relative;
+  padding-top: 7%;
+  margin-bottom: 7%;
+  //   text-align: center;
+
+  .bg_shadow_3 {
+    position: absolute;
+    top: 20%;
+    left: -40%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .bg_shadow_4 {
+    position: absolute;
+    top: -20%;
+    right: 10%;
+    width: 20vw;
+    height: 20vw;
+    z-index: 0;
+  }
+
+  .bg_shadow_5 {
+    position: absolute;
+    top: 30%;
+    right: -50%;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+  }
+
+  .page2_heading {
+    font-size: 10vw;
+    line-height: 100%;
+    padding: 0 15%;
+    position: relative;
+    font-weight: 600;
+
+    .heading_part1 {
+      padding-left: 5%;
+      position: relative;
+
+      .heading_part1_subtext {
+        color: #fff;
+        font-family: HelveticaNeue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        right: 0%;
+        top: 25%;
+        width: 15vw;
+        opacity: 0.5;
+      }
+    }
+    .heading_part2 {
+      padding-left: 45%;
+
+      .heading_part2_subtext {
+        color: #fff;
+        font-family: HelveticaNeue;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        position: absolute;
+        left: 20%;
+        bottom: 10%;
+        width: 15vw;
+        opacity: 0.5;
+      }
+    }
+  }
+}

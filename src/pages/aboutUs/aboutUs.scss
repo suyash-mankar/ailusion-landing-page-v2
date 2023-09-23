@@ -1,0 +1,88 @@
+.about_us_container {
+  height: auto;
+  padding: 8% 0;
+
+  .team_details_container {
+    padding: 0 8%;
+
+    .about_us_bg_img {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+      top: -25%;
+      left: 0;
+    }
+
+    .about_us_bg_shadow_1 {
+      position: absolute;
+      width: 40vw;
+      height: 40vw;
+      left: 0;
+    }
+
+    .about_us_bg_shadow_2 {
+      position: absolute;
+      width: 40vw;
+      height: 40vw;
+      right: 0;
+      top: 40%;
+    }
+
+    .member_details_container {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 14%;
+
+      .details_text_container {
+        width: 50%;
+
+        .quote_text {
+          color: #fff;
+          font-family: HelveticaNeue;
+          font-size: 2vw;
+          font-style: normal;
+          font-weight: 400;
+          margin-bottom: 20px;
+        }
+
+        .quote_subtext {
+          color: var(--gray-600, #52525b);
+          font-family: HelveticaNeue;
+          font-size: 1.5vw;
+          font-style: normal;
+          font-weight: 400;
+          margin-bottom: 20px;
+        }
+
+        .member_name {
+          color: var(--base-white, #fff);
+          font-family: HelveticaNeue;
+          font-size: 1.2vw;
+          font-style: normal;
+          font-weight: 400;
+        }
+
+        .member_designation {
+          color: var(--gray-400, #a1a1aa);
+          font-family: HelveticaNeue;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+        }
+      }
+
+      .member_img_container {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .member_photo {
+          width: 50%;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,104 @@
+.page7_container {
+  background-color: #181818;
+  padding: 2% 10%;
+  padding-right: 0;
+  height: 150vh;
+  padding-top: 10vw;
+
+  .roadmap_img_container {
+    display: flex;
+    justify-content: space-between;
+    // align-items: center;
+
+    .roadmap_container {
+      width: 50%;
+      position: relative;
+
+      .heading {
+        font-size: 3vw;
+        font-weight: 600;
+      }
+
+      .milestone_dot {
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+      }
+
+      .roadmap {
+        .vertical_roadmap_line {
+          border: 2px solid white;
+          transform: rotate(90deg);
+          margin-top: 70%;
+          position: absolute;
+          top: 0;
+          left: -22vw;
+          height: 0vh;
+          width: 50vw;
+        }
+
+        .roadmap_1 {
+          position: absolute;
+          top: 15%;
+          left: 4.3%;
+          width: 30vw;
+          display: flex;
+
+          .roadmap_heading {
+            color: #fff;
+            font-family: HelveticaNeue;
+            font-size: 1.5vw;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+          }
+
+          .roadmap_subtext {
+            color: #fff;
+            font-family: HelveticaNeue;
+            font-size: 1vw;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            opacity: 0.5;
+            margin-top: 10px;
+          }
+        }
+
+        .roadmap_2 {
+          @extend .roadmap_1;
+          top: 35%;
+        }
+        .roadmap_3 {
+          @extend .roadmap_1;
+          top: 45%;
+        }
+        .roadmap_4 {
+          @extend .roadmap_1;
+          top: 55%;
+        }
+        .roadmap_5 {
+          @extend .roadmap_1;
+          top: 65%;
+        }
+        .roadmap_6 {
+          @extend .roadmap_1;
+          top: 75%;
+        }
+        .roadmap_7 {
+          @extend .roadmap_1;
+          top: 85%;
+        }
+      }
+    }
+
+    .img_container {
+      width: 50%;
+      margin-top: 5vw;
+
+      .roadmap_img {
+        width: 100%;
+      }
+    }
+  }
+}

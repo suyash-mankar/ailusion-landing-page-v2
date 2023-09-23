@@ -1,0 +1,50 @@
+.navbar_container {
+  margin: 0% 3%;
+  z-index: 10;
+
+  border-radius: 5px;
+  background: linear-gradient(
+    121deg,
+    rgba(255, 255, 255, 0.18) 10.55%,
+    rgba(255, 255, 255, 0.06) 88.02%
+  );
+  box-shadow: 0px 12.3293px 73.97579px -3.08232px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(15px);
+
+  .navbar-collapse {
+    justify-content: flex-end;
+  }
+
+  .navbar-nav {
+    align-items: center;
+    width: 50%;
+    justify-content: space-between;
+
+    a {
+      color: rgb(255, 255, 255, 0.5);
+      font-family: HelveticaNeue;
+      font-style: normal;
+      font-weight: 500;
+    }
+
+    .waitlist_btn {
+      border-width: 1px;
+      border-style: solid;
+      border-image: linear-gradient(45deg, rgb(143, 55, 0), #7e2bea) 1;
+      padding: 5% 10%;
+      color: white;
+      white-space: nowrap;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 11vw;
+    }
+  }
+
+  .logo_text {
+    font-family: Montserrat;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+  }
+}
