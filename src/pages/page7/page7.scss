@@ -102,3 +102,108 @@
     }
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .page7_container {
+    height: auto;
+    .roadmap_img_container {
+      display: flex;
+      justify-content: space-between;
+      // align-items: center;
+
+      .roadmap_container {
+        width: 50%;
+        position: relative;
+
+        .heading {
+          font-size: 3.5vw;
+          font-weight: 600;
+        }
+
+        .milestone_dot {
+          width: 20px;
+          height: 20px;
+          margin-right: 10px;
+        }
+
+        .roadmap {
+          .vertical_roadmap_line {
+            border: 1px solid white;
+            transform: rotate(90deg);
+            margin-top: 70%;
+            position: absolute;
+            top: 0;
+            left: -20.5vw;
+            height: 0vh;
+            width: 50vw;
+          }
+
+          .roadmap_1 {
+            position: absolute;
+            top: 15%;
+            left: 4.3%;
+            width: 40vw;
+            display: flex;
+
+            .roadmap_heading {
+              color: #fff;
+              font-family: HelveticaNeue;
+              font-size: 2vw;
+              font-style: normal;
+              font-weight: 600;
+              line-height: normal;
+            }
+
+            .roadmap_subtext {
+              color: #fff;
+              font-family: HelveticaNeue;
+              font-size: 1.5vw;
+              font-style: normal;
+              font-weight: 400;
+              line-height: normal;
+              opacity: 0.5;
+              margin-top: 5px;
+            }
+          }
+
+          .roadmap_2 {
+            @extend .roadmap_1;
+            top: 50%;
+          }
+          .roadmap_3 {
+            @extend .roadmap_1;
+            top: 70%;
+          }
+          .roadmap_4 {
+            @extend .roadmap_1;
+            top: 90%;
+          }
+          .roadmap_5 {
+            @extend .roadmap_1;
+            top: 65%;
+            display: none;
+          }
+          .roadmap_6 {
+            @extend .roadmap_1;
+            top: 75%;
+            display: none;
+          }
+          .roadmap_7 {
+            @extend .roadmap_1;
+            top: 85%;
+            display: none;
+          }
+        }
+      }
+
+      .img_container {
+        width: 50%;
+        margin-top: 5vw;
+
+        .roadmap_img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}

@@ -53,3 +53,60 @@
     width: 50%;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .page8_container {
+    flex-direction: column;
+    height: auto;
+    margin-top: 20px;
+
+    .left_container {
+      width: 100%;
+
+      .heading {
+        font-size: 4.5vw;
+        font-weight: 600;
+        color: #fff;
+        font-family: HelveticaNeue;
+        font-style: normal;
+      }
+
+      .subtext {
+        color: var(--gray-400, #a1a1aa);
+        font-family: HelveticaNeue;
+        font-size: 2vw;
+        font-style: normal;
+        font-weight: 400;
+      }
+
+      .btn_container {
+        margin-top: 3vw;
+        display: flex;
+        align-items: center;
+
+        .about_us_btn {
+          background: linear-gradient(
+            93deg,
+            #7e2bea 0%,
+            #c14af2 50%,
+            #f45af0 100%
+          );
+          box-shadow: 2px 3px 0px 0px #fffffd;
+          display: flex;
+          padding: 5px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          font-size: 2.5vw;
+          border: none;
+          border-radius: 0;
+        }
+      }
+    }
+
+    .right_container {
+      width: 80%;
+      margin-top: 15px;
+    }
+  }
+}

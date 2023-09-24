@@ -28,3 +28,22 @@
     padding: 0 15%;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .page4_container {
+    .page4_heading {
+      line-height: 100%;
+      word-spacing: 1px;
+    }
+
+    .page4_subtext {
+      margin-top: 10px;
+      color: #fff;
+      font-family: HelveticaNeue;
+      font-size: 2vw;
+      font-weight: 400;
+      opacity: 0.5;
+      padding: 0 15%;
+    }
+  }
+}

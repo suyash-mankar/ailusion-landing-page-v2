@@ -48,3 +48,19 @@
     font-weight: 600;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .navbar_container {
+    .navbar-nav {
+      align-items: flex-start;
+
+      a {
+        padding-left: 5%;
+      }
+
+      .waitlist_btn {
+        width: auto;
+      }
+    }
+  }
+}

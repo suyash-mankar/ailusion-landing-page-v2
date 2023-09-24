@@ -133,3 +133,106 @@
     display: none;
   }
 }
+
+@media only screen and (max-width: 992px) {
+  .page6_container {
+    .heading_btn_container {
+      .heading_subtext_container {
+        width: 60%;
+
+        .subtext {
+          margin-top: 10px;
+          font-size: 2vw;
+        }
+      }
+
+      .check_now_btn_container {
+        .check_now_btn {
+          background: linear-gradient(
+            93deg,
+            #7e2bea 0%,
+            #c14af2 50%,
+            #f45af0 100%
+          );
+          box-shadow: 5px 5px 0px 0px #fffffd;
+          display: inline-flex;
+          padding: 5px 10px;
+          justify-content: center;
+          align-items: center;
+          gap: 5px;
+          font-size: 2vw;
+          border: none;
+          border-radius: 0;
+        }
+      }
+    }
+
+
+    .milestone_container {
+      position: relative;
+      width: 85vw;
+      overflow-x: auto;
+      height: 18vh;
+  
+      .milestone_line {
+        border: 2px solid white;
+        background: rgba(255, 255, 255, 0.2);
+        width: 112vw;
+      }
+  
+      .milestone_dot {
+        width: 30px;
+      }
+  
+      .milestone_icon_container {
+        .milestone_icon {
+          width: 15px;
+          margin: 5px 0;
+        }
+      }
+  
+      .milestone_1 {
+        position: absolute;
+        top: 5px;
+        left: 5%;
+        width: 20vw;
+  
+        .milestone_heading {
+          color: #fff;
+          font-family: HelveticaNeue;
+          font-size: 2vw;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+        }
+  
+        .milestone_subtext {
+          color: #fff;
+          font-family: HelveticaNeue;
+          font-size: 1.5vw;
+          font-style: normal;
+          font-weight: 400;
+          line-height: normal;
+          opacity: 0.5;
+          margin-top: 5px;
+        }
+      }
+      .milestone_2 {
+        @extend .milestone_1;
+        left: 40%;
+      }
+      .milestone_3 {
+        @extend .milestone_1;
+        left: 70%;
+      }
+      .milestone_4 {
+        @extend .milestone_1;
+        left: 100%;
+      }
+      .milestone_5 {
+        @extend .milestone_1;
+        left: 130%;
+      }
+    }
+  }
+}
