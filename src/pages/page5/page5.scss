@@ -31,14 +31,16 @@
 
 @media only screen and (max-width: 992px) {
   .page5_container {
+    padding: 2% 10%;
+
     .heading_subtext_container {
-      .heading{
-        font-size: 2vw;
+      .heading {
+        font-size: 2.5vw;
         margin-bottom: 5px;
       }
       .subtext {
         line-height: 100%;
-        font-size: 1.5vw;
+        font-size: 1.8vw;
       }
     }
   }

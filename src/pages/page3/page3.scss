@@ -23,5 +23,12 @@
 @media only screen and (max-width: 992px) {
   .page3_container {
     height: auto;
+
+    .page3_img_container {
+      img {
+        padding: 0 10%;
+        padding-left: 13%;
+      }
+    }
   }
 }

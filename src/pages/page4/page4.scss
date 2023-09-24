@@ -31,7 +31,13 @@
 
 @media only screen and (max-width: 992px) {
   .page4_container {
+    padding: 2% 3%;
+
     .page4_heading {
+      margin-top: 30px;
+      font-size: 4vw;
+      font-weight: 600;
+      padding: 0 10%;
       line-height: 100%;
       word-spacing: 1px;
     }
@@ -40,10 +46,10 @@
       margin-top: 10px;
       color: #fff;
       font-family: HelveticaNeue;
-      font-size: 2vw;
+      font-size: 2.5vw;
       font-weight: 400;
       opacity: 0.5;
-      padding: 0 15%;
+      padding: 0 10%;
     }
   }
 }
