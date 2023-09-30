@@ -32,6 +32,11 @@ import member_photo_1 from "./member_photo_1.png";
 import about_us_bg_line from "./about_us_bg_line.png";
 import about_us_bg_shadow_1 from "./about_us_bg_shadow_1.png";
 import about_us_bg_shadow_2 from "./about_us_bg_shadow_2.png";
+import video_icon from "./video_icon.png";
+import page2_bg_img_1 from "./page2_bg_img_1.png";
+import page2_bg_img_2 from "./page2_bg_img_2.png";
+import page3_vr_img from "./page3_vr_img.png";
+import page4_text_bg_shadow from "./page4_text_bg_shadow.png";
 
 export {
   ailusion_logo,
@@ -68,4 +73,9 @@ export {
   about_us_bg_line,
   about_us_bg_shadow_1,
   about_us_bg_shadow_2,
+  video_icon,
+  page2_bg_img_1,
+  page2_bg_img_2,
+  page3_vr_img,
+  page4_text_bg_shadow,
 };

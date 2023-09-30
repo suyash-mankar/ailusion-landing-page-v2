@@ -2,7 +2,7 @@
   background-color: #181818;
   padding: 2% 10%;
   padding-right: 0;
-  height: 150vh;
+  height: auto;
   padding-top: 10vw;
 
   .roadmap_img_container {
@@ -46,7 +46,7 @@
 
           .roadmap_heading {
             color: #fff;
-            font-family: HelveticaNeue;
+            font-family: "Source Code Pro";
             font-size: 1.5vw;
             font-style: normal;
             font-weight: 600;
@@ -55,7 +55,7 @@
 
           .roadmap_subtext {
             color: #fff;
-            font-family: HelveticaNeue;
+            font-family: "Montserrat";
             font-size: 1vw;
             font-style: normal;
             font-weight: 400;

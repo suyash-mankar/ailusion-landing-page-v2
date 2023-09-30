@@ -16,12 +16,23 @@
     line-height: 120%;
     word-spacing: 20px;
     // text-align: justify;
+    position: relative;
+    font-family: 'Source Code Pro';
+
+
+    .page4_text_bg_shadow {
+      position: absolute;
+      top: 0;
+      left: 20%;
+      width: 40%;
+      opacity: 0.5;
+    }
   }
 
   .page4_subtext {
     margin-top: 20px;
     color: #fff;
-    font-family: HelveticaNeue;
+    font-family: 'Montserrat';
     font-size: 1.5vw;
     font-weight: 400;
     opacity: 0.5;

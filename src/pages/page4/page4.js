@@ -1,6 +1,6 @@
 import React from "react";
 import "./page4.scss";
-import { page4_img } from "../../global/icons/media";
+import { page4_img, page4_text_bg_shadow } from "../../global/icons/media";
 
 function Page4() {
   return (
@@ -9,6 +9,11 @@ function Page4() {
         <img src={page4_img} style={{ width: "65%" }} alt="" />
       </div>
       <div className="page4_heading">
+        {/* <img
+          src={page4_text_bg_shadow}
+          className="page4_text_bg_shadow"
+          alt=""
+        /> */}
         CREATING AUGMENTED REALITY EXPERIENCE HAS NEVER BEEN EASY
       </div>
       <div className="page4_subtext">
