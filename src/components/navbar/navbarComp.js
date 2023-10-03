@@ -23,10 +23,10 @@ function NavbarComp() {
         <Navbar.Collapse id="responsive-navbar-nav">
           {/* <Nav className="me-auto"></Nav> */}
           <Nav>
-            <Nav.Link href="#deets">Products</Nav.Link>
+            {/* <Nav.Link href="#deets">Products</Nav.Link> */}
             <Nav.Link href="/about-us">About Us</Nav.Link>
             <Nav.Link href="/contact-us">Contact Us</Nav.Link>
-            <Nav.Link href="#deets">
+            <Nav.Link href="#page9_container">
               <div className="waitlist_btn">
                 Join Waitlist{" "}
                 <BsArrowRight style={{ marginLeft: 10 }} size={20} />

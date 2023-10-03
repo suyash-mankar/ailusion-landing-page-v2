@@ -1,8 +1,8 @@
 .page6_container {
-  background-color: #181818;
   padding: 2% 10%;
   height: auto;
   padding-top: 10%;
+  position: relative;
 
   .heading_btn_container {
     display: flex;
@@ -27,7 +27,7 @@
       .subtext {
         color: #fff;
         text-align: justify;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-size: 1.5vw;
         font-style: normal;
         font-weight: 400;
@@ -64,7 +64,7 @@
 
   .milestone_container {
     position: relative;
-    width: 85vw;
+    width: 80vw;
     overflow-x: auto;
     height: 18vw;
 
@@ -102,7 +102,7 @@
 
       .milestone_subtext {
         color: #fff;
-        font-family: 'Montserrat';
+        font-family: "Montserrat";
         font-size: 1vw;
         font-style: normal;
         font-weight: 400;
@@ -129,6 +129,35 @@
     }
   }
 
+  .scroll-buttons-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 30%;
+    z-index: 10;
+
+    button {
+      background: transparent;
+      cursor: pointer;
+      border: none;
+      padding: 5px;
+      border-radius: 50%;
+    }
+
+    .scrollLeftButton {
+      // position: sticky;
+      left: -4%;
+      position: absolute;
+    }
+
+    .scrollRightButton {
+      position: absolute;
+      right: 20%;
+    }
+  }
+
   .milestone_container::-webkit-scrollbar {
     display: none;
   }
@@ -136,7 +165,7 @@
 
 @media only screen and (max-width: 992px) {
   .page6_container {
-  padding: 2% 6%;
+    padding: 2% 6%;
 
     .heading_btn_container {
       .heading_subtext_container {
@@ -169,36 +198,35 @@
       }
     }
 
-
     .milestone_container {
       position: relative;
       width: 85vw;
       overflow-x: auto;
       height: 18vh;
-  
+
       .milestone_line {
         border: 2px solid white;
         background: rgba(255, 255, 255, 0.2);
         width: 112vw;
       }
-  
+
       .milestone_dot {
         width: 30px;
       }
-  
+
       .milestone_icon_container {
         .milestone_icon {
           width: 15px;
           margin: 5px 0;
         }
       }
-  
+
       .milestone_1 {
         position: absolute;
         top: 5px;
         left: 5%;
         width: 20vw;
-  
+
         .milestone_heading {
           color: #fff;
           font-family: HelveticaNeue;
@@ -207,7 +235,7 @@
           font-weight: 600;
           line-height: normal;
         }
-  
+
         .milestone_subtext {
           color: #fff;
           font-family: HelveticaNeue;

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useRef, useState } from "react";
 import "./homepage.scss";
 import Page1 from "../page1/page1";
 import Page2 from "../page2/page2";
@@ -13,6 +13,23 @@ import Footer from "../../components/footer/footer";
 
 function HomePage({ setShowBgImg }) {
   setShowBgImg(true);
+
+  const [scrollPosition, setScrollPosition] = useState(0);
+  const lineDotRef = useRef(null);
+
+  // Update scroll position when the user scrolls
+  useEffect(() => {
+    const handleScroll = () => {
+      setScrollPosition(window.scrollY);
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div className="homepage">
       <Page1 />
@@ -25,6 +42,14 @@ function HomePage({ setShowBgImg }) {
       <Page8 />
       <Page9 />
       <Footer />
+
+      <div className="line-dot-container">
+        <div
+          className="line-dot"
+          style={{ transform: `translateY(${scrollPosition / 26}px)` }}
+          ref={lineDotRef}
+        ></div>
+      </div>
     </div>
   );
 }

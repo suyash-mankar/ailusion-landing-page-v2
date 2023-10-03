@@ -4,7 +4,7 @@ import { Button } from "react-bootstrap";
 
 function Page9() {
   return (
-    <div className="page9_container">
+    <div className="page9_container" id="page9_container">
       <div className="waitlist_container">
         <div className="waitlist_heading">
           Join the future, join the waitlist

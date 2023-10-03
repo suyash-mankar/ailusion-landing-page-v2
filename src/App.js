@@ -18,18 +18,15 @@ function App() {
       <NavbarComp />
       <BrowserRouter>
         <Routes>
-          <Route
-            path="/"
-            element={<HomePage setShowBgImg={setShowBgImg} />}
-          ></Route>
+          <Route path="/" element={<HomePage setShowBgImg={setShowBgImg} />} />
           <Route
             path="/contact-us"
             element={<ContactUs setShowBgImg={setShowBgImg} />}
-          ></Route>
+          />
           <Route
             path="/about-us"
             element={<AboutUs setShowBgImg={setShowBgImg} />}
-          ></Route>
+          />
         </Routes>
       </BrowserRouter>
     </div>

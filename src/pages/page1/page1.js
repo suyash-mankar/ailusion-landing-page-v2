@@ -11,8 +11,11 @@ import {
 } from "../../global/icons/media";
 import { BsArrowRight } from "react-icons/bs";
 import { Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 
 function Page1() {
+  const navigate = useNavigate();
+
   return (
     <div className="page1_container">
       <img src={page1_bg_line} className="bg_line" alt="" />
@@ -28,7 +31,13 @@ function Page1() {
           Set. Dive into immersive worlds, explore new dimensions, and redefine
           your reality.
         </div>
-        <Button className="join_the_future_btn">
+
+        <Button
+          className="join_the_future_btn"
+          onClick={() => {
+            navigate("/test");
+          }}
+        >
           Join the future <BsArrowRight />
         </Button>
 

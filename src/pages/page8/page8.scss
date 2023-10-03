@@ -8,6 +8,7 @@
 
   .left_container {
     width: 40%;
+    z-index: 2;
 
     .heading {
       font-size: 4vw;
@@ -19,7 +20,7 @@
 
     .subtext {
       color: var(--gray-400, #a1a1aa);
-      font-family: 'Montserrat';
+      font-family: "Montserrat";
       font-size: 1.3vw;
       font-style: normal;
       font-weight: 400;

@@ -37,6 +37,7 @@ import page2_bg_img_1 from "./page2_bg_img_1.png";
 import page2_bg_img_2 from "./page2_bg_img_2.png";
 import page3_vr_img from "./page3_vr_img.png";
 import page4_text_bg_shadow from "./page4_text_bg_shadow.png";
+import page3_description_pointer from "./page3_description_pointer.png";
 
 export {
   ailusion_logo,
@@ -78,4 +79,5 @@ export {
   page2_bg_img_2,
   page3_vr_img,
   page4_text_bg_shadow,
+  page3_description_pointer,
 };

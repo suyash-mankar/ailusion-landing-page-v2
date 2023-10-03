@@ -32,27 +32,175 @@
       width: 65%;
     }
 
-    .vr_circle_point_1 {
+    .pointer_description_container_1 {
       position: absolute;
       top: 27%;
       left: 65%;
-      width: 35px;
-      height: 35px;
-      border-radius: 50%;
-      background: white;
-      z-index: 3;
+
+      .vr_circle_point_1 {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: white;
+        z-index: 5;
+        position: relative;
+      }
+
+      .description_1 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 3.082px solid #9d576e;
+        background: linear-gradient(
+          121deg,
+          rgba(255, 255, 255, 0.3) 10.55%,
+          rgba(255, 255, 255, 0.1) 88.02%
+        );
+        box-shadow: 0px 12.3293px 73.97579px -3.08232px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(15px);
+        padding: 10px 20px;
+        z-index: 4;
+        width: 20vw;
+
+        .page3_description_pointer {
+          height: 20px;
+          width: 20px;
+        }
+
+        .pointer_heading {
+          color: #fff;
+          font-family: "Source Code Pro";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin: 15px 0;
+        }
+
+        .pointer_subtext {
+          color: #fff;
+          font-family: "Montserrat";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          opacity: 0.5;
+        }
+      }
     }
 
-    .vr_circle_point_2 {
-      @extend .vr_circle_point_1;
+    .pointer_description_container_2 {
+      position: absolute;
       top: 55%;
       left: 70%;
+
+      .vr_circle_point_2 {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: white;
+        z-index: 3;
+        position: relative;
+      }
+
+      .description_2 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 3.082px solid #9d576e;
+        background: linear-gradient(
+          121deg,
+          rgba(255, 255, 255, 0.3) 10.55%,
+          rgba(255, 255, 255, 0.1) 88.02%
+        );
+        box-shadow: 0px 12.3293px 73.97579px -3.08232px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(15px);
+        padding: 10px 20px;
+        z-index: 2;
+        width: 20vw;
+
+        .page3_description_pointer {
+          height: 20px;
+          width: 20px;
+        }
+
+        .pointer_heading {
+          color: #fff;
+          font-family: "Source Code Pro";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin: 15px 0;
+        }
+
+        .pointer_subtext {
+          color: #fff;
+          font-family: "Montserrat";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          opacity: 0.5;
+        }
+      }
     }
 
-    .vr_circle_point_3 {
-      @extend .vr_circle_point_1;
+    .pointer_description_container_3 {
+      position: absolute;
       top: 55%;
       left: 28%;
+
+      .vr_circle_point_3 {
+        width: 35px;
+        height: 35px;
+        border-radius: 50%;
+        background: white;
+        z-index: 4;
+        position: relative;
+      }
+
+      .description_3 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        border: 3.082px solid #9d576e;
+        background: linear-gradient(
+          121deg,
+          rgba(255, 255, 255, 0.3) 10.55%,
+          rgba(255, 255, 255, 0.1) 88.02%
+        );
+        box-shadow: 0px 12.3293px 73.97579px -3.08232px rgba(0, 0, 0, 0.2);
+        backdrop-filter: blur(15px);
+        padding: 10px 20px;
+        z-index: 3;
+        width: 20vw;
+
+        .page3_description_pointer {
+          height: 20px;
+          width: 20px;
+        }
+
+        .pointer_heading {
+          color: #fff;
+          font-family: "Source Code Pro";
+          font-size: 20px;
+          font-style: normal;
+          font-weight: 600;
+          line-height: normal;
+          margin: 15px 0;
+        }
+
+        .pointer_subtext {
+          color: #fff;
+          font-family: "Montserrat";
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+          opacity: 0.5;
+        }
+      }
     }
   }
 }
